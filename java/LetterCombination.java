@@ -3,12 +3,12 @@ public class Solution {
     public List<String> letterCombinations(String digits) {
         
         ArrayList <String> result = new ArrayList<String>();
-		if(digits == null || digits.length() < 1){
-			return result;
-		}
+	if(digits == null || digits.length() < 1){
+		return result;
+	}
 
-		HashMap <Character,String> hashMap = new HashMap<Character, String>();
-		hashMap.put('2',"abc");
+	HashMap <Character,String> hashMap = new HashMap<Character, String>();
+	hashMap.put('2',"abc");
         hashMap.put('3',"def");
         hashMap.put('4',"ghi");
         hashMap.put('5',"jkl");
